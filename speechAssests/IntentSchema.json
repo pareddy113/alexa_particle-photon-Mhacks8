@@ -6,6 +6,10 @@
       {
         "name": "state",
         "type": "List_of_states"
+      },
+      {
+        "name": "color",
+        "type": "List_of_colors"
       }
     ]
   },

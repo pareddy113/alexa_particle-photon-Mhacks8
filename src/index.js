@@ -44,7 +44,7 @@ ParticleSkill.prototype.eventHandlers.onSessionStarted = function (sessionStarte
 
 ParticleSkill.prototype.eventHandlers.onLaunch = function (launchRequest, session, response) {
     console.log("ParticleSkill onLaunch requestId: " + launchRequest.requestId + ", sessionId: " + session.sessionId);
-    var speechOutput = "Welcome to Particle Light. You can ask me to turn the light on or off, change colors, and set the brightness level.";
+    var speechOutput = "Welcome to Automated world. You can ask me to turn on your lights, adjust temperature and many thing";
     var repromptText = "You can ask me to turn the light on or off.";
     response.ask(speechOutput, repromptText);
 };
@@ -111,7 +111,7 @@ ParticleSkill.prototype.intentHandlers = {
     },
 
     "AMAZON.HelpIntent": function (intent, session, response) {
-        var speechOutput = "You can ask me to turn on or off. You can also ask me to change colors, like red, green, blue, or white.";
+        var speechOutput = "You can ask me to turn on or off any light with colors like red, green, blue, or white.";
         response.ask(speechOutput);
     }
 };

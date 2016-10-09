@@ -3,3 +3,4 @@ green
 blue
 violet
 lights
+off
