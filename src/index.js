@@ -14,8 +14,8 @@ var particle = new Particle();
  * Particle authentication credentials
  * @see https://docs.particle.io/reference/api/#authentication
  */
-var PARTICLE_DEVICE_ID = "240025000347343339373536";
-var PARTICLE_ACCESS_TOKEN = "c43f3ef36e38c3ecbfe21b1ce4e19124a8f72881";
+var PARTICLE_DEVICE_ID = "your id";
+var PARTICLE_ACCESS_TOKEN = "your access token";
 
 /**
  * The AlexaSkill prototype and helper functions
