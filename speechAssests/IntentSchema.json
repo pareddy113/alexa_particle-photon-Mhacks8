@@ -1,0 +1,28 @@
+{
+  "intents":[
+    {
+    "intent": "ParticleStateIntent",
+    "slots": [
+      {
+        "name": "state",
+        "type": "List_of_states"
+      }
+    ]
+  },
+  {
+    "intent": "ParticleColorIntent",
+    "slots": [
+      {
+        "name": "color",
+        "type": "List_of_colors"
+      }
+    ]
+  },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    }
+  ]
+}

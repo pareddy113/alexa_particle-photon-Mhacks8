@@ -1,0 +1,9 @@
+ParticleStateIntent switch on {state}
+ParticleColorIntent change to {color}
+ParticleColorIntent turn color {color}
+ParticleColorIntent turn all {color}
+ParticleColorIntent turn {color}
+AMAZON.StopIntent no
+AMAZON.StopIntent nope
+AMAZON.StopIntent no thanks
+AMAZON.StopIntent no thank you
